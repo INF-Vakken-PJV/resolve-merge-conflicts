@@ -69,7 +69,8 @@ _Good start! Now let's look deeper at a merge conflict! :mag:_
 This can be intimidating, but have no fear, Git is smart when it comes to merging! Git only needs a human to decide how to [resolve the conflict](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line). Sometimes, the best way to resolve a merge conflict is to add content that's from both branches, or even something that isn't on either! This is why Git needs a human to look at the code and make the proper fixes.
 
 ### :keyboard: Activity: Resolve a merge conflict
-
+>TRANSLATE THESE STEPS TO (AND USE) YOUR CLI
+  
 1. Open the pull request that you just created, we created a conflict for you. Have no fear!
 1. At the bottom of the page, under "This branch has conflicts that must be resolved", click the **Resolve conflicts** button.
 1. Look for the highlighted sections that begins with  `<<<<<<<  my-resume` and ends with `>>>>>>> main`. These markers are added by Git to show you the content that is in conflict.
@@ -102,7 +103,8 @@ Resolving a conflict doesn't automatically merge the pull request in GitHub. Ins
 Now, let's get a little evil. (It's for educational purposes!)
 
 ### :keyboard: Activity: Create your own conflict
-
+>TRANSLATE THESE STEPS TO (AND USE) YOUR CLI
+  
 We went ahead and added a new file called `references.md` and pushed that change to `main`, without updating your `my-resume` branch.
 
 1. Browse to the `my-resume` branch.
